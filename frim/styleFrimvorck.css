@@ -1,0 +1,27 @@
+.display-none{
+	display: none;
+}
+.display{
+	display: block;
+}
+.background_red{
+	background:red;
+}
+.background_green{
+	background:green;
+}
+.background_blue{
+	background:blue;
+}
+.background_yellow{
+	background:yellow;
+}
+.background_gray{
+	background:gray;
+}
+.background_black{
+	background:black;Roboto, Arial, sans-serif;
+}
+.background_white{
+	background:white;
+}

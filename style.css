@@ -1,0 +1,114 @@
+body{
+	margin:0;
+	font-family: sans-serif;
+}
+input{
+	font-family: sans-serif;
+	font-size: 40px;
+	width:70%;
+	border: 1px solid #00fff6;
+	background-color: #a0fffb;
+}
+#Enter{
+	width: 10%;
+	text-align: center;
+	background-color: #00fff6;
+	border:1px solid #00fff6;
+}
+#Enter span {
+	margin:auto;
+}
+.conteinerPC{
+	display: flex;
+}
+#Are_you_ready{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 255, 246,0.5)
+}
+.dis{
+	display: none;
+}
+.conteinerMB{
+	display: none;
+}
+.Content{
+	text-align: center;
+	margin-top: 20%;
+}
+.Yes_and_No{
+	font-size: 40px;
+}
+.Yes_and_No div{
+	display: inline-block;
+	border-radius: 10px;
+}
+.Yes{
+	background-color: #04ea42;
+	width: 10%;
+	padding:10px;
+}
+.No{
+	background-color: #db0404;
+	width: 10%;
+	padding:10px;
+}
+a{
+	color: black;
+}
+.Yes:hover{
+	cursor: pointer;
+}
+.contauber_label{
+	display: grid;
+}
+label{
+	float: left;
+	font-size: 40px;
+}
+#Clear{
+	width: 10%;
+	padding:20px;
+	text-align: center;
+	background-color: #00fff6;
+	border:1px solid #00fff6;
+}
+@media (max-width: 576px) {
+	input {
+		width: 100%;
+	}
+	#Clear{
+		padding:0;
+	}
+	.conteinerMB{
+		display: flex;
+	}
+	.conteinerPC{
+		display: none;
+	}
+	#Enter{
+		width: 30%;
+		padding:20px;
+	}
+	#Clear{
+		width: 30%;
+		padding:20px;
+	}
+	.dis{
+		display: block;
+	}
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}

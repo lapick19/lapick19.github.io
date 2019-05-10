@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="frim/styleFrimvorck.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="Are_you_ready">
+		<div class="Content">
+			<h1>
+				Are you ready?
+			</h1>
+			<div class="Yes_and_No">
+				<div class="Yes" onclick="Close()">
+					<i class="fas fa-check"></i>
+				</div>
+				<a href="https://www.google.com.ua/?hl=ru"><div class="No">
+					<i class="fas fa-times"></i>
+				</div></a>
+			</div>
+		</div>
+		
+	</div>
+	<div class="conteinerPC">
+		<input type="text" id="input" onclick="Transfer()" value="Введите перевод">
+		<button id="Enter" onclick="check_input()">Enter</button>
+		<button id="Clear" onclick="NewWord()">New Word</button>	
+		<button id="Clear" onclick="NoWord()">I don't know this word</button>
+	</div>
+	<div class="contauber_label">
+		<label id="label1">
+
+		</label>
+		<label id="label">
+			
+		</label>
+		<label id="label2">
+			
+		</label>
+	</div>
+
+	
+	<script src="frim/MyFrimvork.js" type="text/javascript"></script>
+	<script src="JS/MyloveJs.js" type="text/javascript"></script>
+</body>
+</html>
