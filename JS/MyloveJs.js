@@ -282,7 +282,7 @@ function NoWord(){
 		label.innerHTML = 'Pail также преводиться как:ведро, ведерко, бак, бадья, кадка<br>P.S свединие с "GoogleTranslator"';
 	};
 	if (label1.innerHTML == 'Bucketful') {
-		label.innerHTML = 'P.S свединие с "GoogleTranslator"';
+		label.innerHTML = 'Ведро';
 	};
 	if (label1.innerHTML == 'Transfer') {
 		label.innerHTML = 'Transfer также преводиться как:трансфер, передача, перевод, перенос, перемещение, трансферт<br>P.S свединие с "GoogleTranslator"';
